@@ -1,0 +1,57 @@
+@import url(reset.css);
+@import url(../fonts/iconfont.css);
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px; }
+
+html {
+  font-size: 625%; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  height: 0.45rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 0.45rem;
+  text-align: center;
+  padding: 0 0.1rem; }
+  header span:nth-child(1) {
+    width: 15%; }
+  header span:nth-child(2) {
+    width: 70%; }
+  header span:nth-child(3) {
+    width: 15%; }
+  header input {
+    height: 0.25rem;
+    border: 0.01rem solid #999;
+    color: #999;
+    background: #ccc;
+    border-radius: 0.1rem;
+    padding: 0 0.1rem;
+    width: 100%;
+    outline: none; }
+  header i {
+    font-size: 0.16rem; }
+
+section {
+  width: 100%;
+  height: 0.45rem; }
+
+footer {
+  width: 100%;
+  height: 0.45rem;
+  display: flex;
+  flex-direction: row;
+  line-height: 0.45rem; }
+
+/*# sourceMappingURL=style.css.map */
